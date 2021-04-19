@@ -9,3 +9,4 @@ def fizzbuzz(number)
     return number
   end
 end
+(1..100).each { |num| puts fizzbuzz(num) }
